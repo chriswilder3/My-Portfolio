@@ -3,8 +3,11 @@ import Heros from './Heros';
 
 function Home() {
   return (
-    <>
-        <Heros />
+    <>  
+        <div >
+          <Heros />
+        </div>
+        
     </>
   )
 }

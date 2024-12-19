@@ -13,3 +13,14 @@
 font-family: "Playfair Display", serif;
 font-optical-sizing: auto;
 }
+.lobster{
+  font-family: 'Lobster';
+}
+
+.main-name {
+  color:transparent;
+  -webkit-background-clip:text;
+  background-clip:text;
+  background-image: linear-gradient(to right, #4A90E2, #50E3C2);
+
+}
