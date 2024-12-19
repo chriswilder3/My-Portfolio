@@ -16,6 +16,9 @@ font-optical-sizing: auto;
 .lobster{
   font-family: 'Lobster';
 }
+.fira-mono{
+  font-family: 'Fira Mono';
+}
 
 .main-name {
   color:transparent;

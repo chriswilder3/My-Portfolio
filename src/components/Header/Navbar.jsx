@@ -14,7 +14,7 @@ function Navbar() {
                 <NavLink to="/about" className={({isActive})=>`${isActive?'text-slate-800':''}`}> About </NavLink>
             </li>
             <li className='relative' >
-                <NavLink href="" className='hover:underline'> Projects </NavLink>
+                <NavLink to="/projects" className={({isActive})=>`${isActive?'text-slate-800':''}`}> Projects </NavLink>
                 
             </li>
             <li>
