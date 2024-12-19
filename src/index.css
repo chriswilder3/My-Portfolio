@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.poppins {
+  font-family: "Poppins", serif;
+}
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+}
+.playfair-display{
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+}
