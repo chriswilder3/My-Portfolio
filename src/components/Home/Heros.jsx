@@ -49,6 +49,7 @@ function Heros() {
                 style={{
                     width:150,
                     height:150,
+                    x:-50,
                 }}
             >
                 <img src="src\assets\picofme.png" alt="" 
