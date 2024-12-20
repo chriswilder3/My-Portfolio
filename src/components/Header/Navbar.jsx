@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     
-        <ul className=' flex gap-20 mb-10 justify-start px-16 pt-8 pb-2 text-blue-700 text-xl font-medium poppins'>
+        <ul className=' md:flex gap-20 mb-10 justify-start px-16 pt-8 pb-2 text-blue-700 text-xl font-medium fira-mono'>
             <li>
                 <NavLink to="/" className={({isActive})=>`${isActive?'text-slate-800':''}`} > Home </NavLink>
             </li>
