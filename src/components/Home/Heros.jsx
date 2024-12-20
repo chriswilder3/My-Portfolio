@@ -6,7 +6,7 @@ function Heros() {
   return (
     <>
         
-        <div className=' flex md:flex-row justify-center md:justify-around items-center'>
+        <div className=' flex md:flex-row  justify-center md:justify-around items-center'>
             <motion.div 
                 initial ={{
                     x:-450
@@ -56,7 +56,7 @@ function Heros() {
             </motion.div>
         </div>
 
-        <motion.div className="links flex flex-row gap-10 md:mx-64 my-2 p-4 w-fit rounded  justify-left"
+        <motion.div className="links flex flex-row gap-10 ml-5 md:mx-64 my-2 p-4 w-fit rounded  justify-left"
             initial={{
                 y:50,
                 opacity:0,
@@ -82,6 +82,11 @@ function Heros() {
             </a>
             
         </motion.div>
+
+        <div className=' text-xl poppins w-fit ml-5 md:ml-52'>
+            A fullstack developer with expertise <br />
+            in React, Django and Python.
+        </div>
     </>
   )
 }

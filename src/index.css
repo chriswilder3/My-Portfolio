@@ -25,5 +25,8 @@ font-optical-sizing: auto;
   -webkit-background-clip:text;
   background-clip:text;
   background-image: linear-gradient(to right, #4A90E2, #50E3C2);
+}
 
+.triangle{
+  background-image: linear-gradient(to bottom, lightgray,white);
 }
