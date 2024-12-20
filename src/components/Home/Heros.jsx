@@ -5,20 +5,15 @@ import {motion} from 'motion/react'
 function Heros() {
   return (
     <>
-        <div className='  text-left pl-40  p-4'>
-            <h2 className='text-3xl fira-mono my-2 text-slate-500 font-semibold'>
-                Hey, I'm
-            </h2> 
-            
-        </div>
-        <div className=' md:flex flex-row justify-around items-center'>
+        
+        <div className=' flex md:flex-row justify-center md:justify-around items-center'>
             <motion.div 
                 initial ={{
                     x:-450
                 }}
                 
                 animate={{    
-                    x:150
+                    x:0
                 }} 
                 transition={{
                     duration: 0.9,
@@ -27,8 +22,10 @@ function Heros() {
                 style={{
                     x:0,
                 }}
-                className='text-left  md:1/3'>
-                
+                className='text-left  md:w-1/3'>
+                    <h2 className='text-3xl fira-mono my-2 text-slate-500 font-semibold'>
+                        Hey, I'm
+                    </h2> 
                     <h1 className='text-7xl  fira-mono main-name  font-bold'>
                         Sachin 
                     </h1>
@@ -59,15 +56,32 @@ function Heros() {
             </motion.div>
         </div>
 
-        <div className="links flex flex-row">
-            <a href="">
-                <i class="fa-brands fa-linkedin"></i>
+        <motion.div className="links flex flex-row gap-10 md:mx-64 my-2 p-4 w-fit rounded  justify-left"
+            initial={{
+                y:50,
+                opacity:0,
+            }}
+            animate={{
+                y:0,
+                opacity:1
+            }}
+            transition={{
+                duration: 1,
+                delay:0.3,
+                
+            }}
+            style={{
+                
+            }}
+            >
+            <a href="https://linkedin.com/in/sachin-sd/">
+                <i className="fa fa-linkedin-square text-5xl" ></i>
             </a>
-            <a href="">
-
+            <a href="https://github.com/chriswilder3">
+                <i className='fa fa-github-square text-5xl'></i>
             </a>
-
-        </div>
+            
+        </motion.div>
     </>
   )
 }
